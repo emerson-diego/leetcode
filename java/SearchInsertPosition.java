@@ -14,7 +14,6 @@ public class SearchInsertPosition {
                 result = i;
             }
             else if(target< nums[i]){
-                
                 break;
             }
         }
