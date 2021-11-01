@@ -1,7 +1,7 @@
 public class PlusOne {
 
     public static void main(String args[]) {
-        int digits[] = { 9, 9 };
+        int digits[] = { 1, 2, 9 };
 
         int digits2[] = new PlusOne().plusOne(digits);
 
