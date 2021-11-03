@@ -5,9 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch P704_BinarySearch",
+            "request": "launch",
+            "mainClass": "P704_BinarySearch",
+            "projectName": "leetcode_96ec4fff"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancerdBinaryTree",
+            "request": "launch",
+            "mainClass": "BalancerdBinaryTree",
+            "projectName": "leetcode_96ec4fff"
+        },
+        {
             "name": "Debug Typescript",
             "program": "${workspaceFolder}/typescript/main.ts",
-            
             "console": "integratedTerminal",
             "request": "launch",
             "skipFiles": [
@@ -16,11 +29,8 @@
             "type": "pwa-node",
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
-                "${workspaceFolder}/**/*.js",
-              
+                "${workspaceFolder}/**/*.js"
             ]
         }
-
-
     ]
 }
