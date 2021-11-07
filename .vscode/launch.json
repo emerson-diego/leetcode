@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch P278_FirstBadVersion",
+      "request": "launch",
+      "mainClass": "P278_FirstBadVersion",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "Launch P704_BinarySearch",
       "request": "launch",
       "mainClass": "P704_BinarySearch",
@@ -30,10 +37,14 @@
       "program": "${workspaceFolder}/typescript/main.ts",
       "console": "integratedTerminal",
       "request": "launch",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "type": "pwa-node",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/**/*.js"]
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
     }
   ]
 }
