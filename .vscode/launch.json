@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch P35_SearchInsertPosition",
+      "request": "launch",
+      "mainClass": "P35_SearchInsertPosition",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "Launch P278_FirstBadVersion",
       "request": "launch",
       "mainClass": "P278_FirstBadVersion",
