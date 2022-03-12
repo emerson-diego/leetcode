@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch P14_LongestCommomPrefix",
+      "request": "launch",
+      "mainClass": "P14_LongestCommomPrefix",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
+      "name": "Launch P101_SymmetricTree",
+      "request": "launch",
+      "mainClass": "P101_SymmetricTree",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "Launch P35_SearchInsertPosition",
       "request": "launch",
       "mainClass": "P35_SearchInsertPosition",
