@@ -6,6 +6,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch P21_MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "P21_MergeTwoSortedLists"
+    },
+    {
+      "type": "java",
       "name": "Launch P14_LongestCommomPrefix",
       "request": "launch",
       "mainClass": "P14_LongestCommomPrefix",
@@ -58,14 +64,10 @@
       "program": "${workspaceFolder}/typescript/main.ts",
       "console": "integratedTerminal",
       "request": "launch",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }

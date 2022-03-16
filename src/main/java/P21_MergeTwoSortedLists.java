@@ -2,52 +2,50 @@ public class P21_MergeTwoSortedLists {
 
     public static void main(String args[]) {
 
-        ListNode list1[] = { 1, 2, 4 };
-        ListNode list2[] = { 1, 3, 4 };
+        ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
         ListNode result = new P21_MergeTwoSortedLists().mergeTwoLists(list1, list2);
 
-        for (int i = 0; i < result.size(); i++) {
-            System.out.println(item);
+        while (result != null) {
+            System.out.println(result.val);
+            result = result.next;
         }
 
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
-        ListNode result[] = {};
+        if (list1 == null || list2 == null)
+            return list1 == null ? list2 : list1;
 
-        // for (int i = 0; i < list1.size(); i++) {
-
-        // for (int j = 0; i < list2.size(); j++) {
-
-        // }
-        // }
+        ListNode head = list1.val < list2.val ? list1 : list2;
+        
+        ListNode pre = head;
+        list1 = head == list1 ? list1.next : list1;
+        list2 = head == list2 ? list2.next : list2;
 
         while (list1 != null && list2 != null) {
-            if (list1 != null && list2 != null && list1.val <= list2.val) {
-
-                ListNode menor = list1;
-                list1.
-
-                if (result == null) {
-                    ListNode newItem = new ListNode(menor.val, null);
-                    result = newItem;
-                } else {
-                    ListNode newItem = new ListNode(menor.val, null);
-                    result.next = newItem;
-                }
-
+            if (list1.val < list2.val) {
+                pre.next = list1;
+                list1 = list1.next;
+            } else {
+                pre.next = list2;
+                list2 = list2.next;
             }
+            pre = pre.next;
         }
-
-        return result;
+        if (list1 != null)
+            pre.next = list1;
+        if (list2 != null)
+            pre.next = list2;
+        return head;
 
     }
 
 }
 
-public class ListNode {
+class ListNode {
     int val;
     ListNode next;
 
