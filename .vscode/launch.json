@@ -6,10 +6,16 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "Launch P344_ReverseString",
       "request": "launch",
       "mainClass": "P344_ReverseString",
       "projectName": "leetcode"
+=======
+      "name": "Launch P21_MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "P21_MergeTwoSortedLists"
+>>>>>>> 1d35b7b7d74851e6c21536221354342643cdadb5
     },
     {
       "type": "java",
