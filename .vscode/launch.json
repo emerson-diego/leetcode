@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P26_RemoveDuplicatesFromSortedArray",
+      "request": "launch",
+      "mainClass": "P26_RemoveDuplicatesFromSortedArray",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "Launch P2418_SortPeople",
       "request": "launch",
       "mainClass": "P2418_SortPeople",
@@ -79,10 +86,14 @@
       "program": "${workspaceFolder}/typescript/main.ts",
       "console": "integratedTerminal",
       "request": "launch",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "type": "pwa-node",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/**/*.js"]
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
     }
   ]
 }
