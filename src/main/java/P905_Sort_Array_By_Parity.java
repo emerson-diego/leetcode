@@ -1,18 +1,16 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class P905_Sort_Array_By_Parity {
 
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         var principal = new P905_Sort_Array_By_Parity();
 
-            var array = new int[]{3, 1, 2, 4};
+        var array = new int[]{3, 1, 2, 4};
 
         var arrayResult = principal.sortArrayByParity(array);
-
+        
         System.out.println(arrayResult);
     }
+
 
     public int[] sortArrayByParity(int[] nums) {
 
