@@ -7,7 +7,7 @@ public class P905_Sort_Array_By_Parity {
         var array = new int[]{3, 1, 2, 4};
 
         var arrayResult = principal.sortArrayByParity(array);
-        
+
         System.out.println(arrayResult);
     }
 
