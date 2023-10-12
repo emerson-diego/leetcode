@@ -6,6 +6,7 @@ public class P2873_MaximumValueOfAnOrderedTripletI {
         var principal = new P2873_MaximumValueOfAnOrderedTripletI();
         
         var result = principal.maximumTripletValue(nums);
+        
         System.out.println(result);
         
     }
