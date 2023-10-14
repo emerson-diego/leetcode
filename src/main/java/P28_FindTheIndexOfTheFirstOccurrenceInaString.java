@@ -1,5 +1,5 @@
 public class P28_FindTheIndexOfTheFirstOccurrenceInaString {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         
         var haystack = "leetcode";
         var needle = "leeto";
