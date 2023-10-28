@@ -1,21 +1,20 @@
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class P704_BinarySearchTest {
-
-    @Before
+    
+    @BeforeEach
     public void setup() {
-
+    
     }
-
+    
     @Test
     public void test() {
-
+    
     }
-
+    
     @Test
     public void demoTestMethod() {
         assertTrue(true);
