@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P69_Sqrt",
+      "request": "launch",
+      "mainClass": "P69_Sqrt",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P26_RemoveDuplicatesFromSortedArray",
       "request": "launch",
       "mainClass": "P26_RemoveDuplicatesFromSortedArray",
