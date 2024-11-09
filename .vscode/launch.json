@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P3110_Score_of_a_String",
+      "request": "launch",
+      "mainClass": "P3110_Score_of_a_String",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P69_Sqrt",
       "request": "launch",
       "mainClass": "P69_Sqrt",
