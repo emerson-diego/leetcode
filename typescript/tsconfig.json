@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",    // All compiled JavaScript files go here
+    "rootDir": "./",      // Source TypeScript files are located here
+    "target": "es6",      // Compile to ES6 JavaScript
+    "module": "commonjs"  // Use CommonJS for modules
+  },
+  "include": [
+    "*.ts"                // Include all TypeScript files in the current folder
+  ]
+}
