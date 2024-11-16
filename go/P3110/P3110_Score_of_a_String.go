@@ -20,7 +20,7 @@ func scoreOfString(s string) int {
 }
 
 func main() {
-	// Example usage
-	fmt.Println(scoreOfString("hello")) // Output: 13
-	fmt.Println(scoreOfString("zaz"))   // Output: 50
+
+	fmt.Println(scoreOfString("hello"))
+	fmt.Println(scoreOfString("zaz"))
 }
