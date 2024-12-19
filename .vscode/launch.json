@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P1920_Build_Array_from_Permutation",
+      "request": "launch",
+      "mainClass": "P1920_Build_Array_from_Permutation",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P1929_Concatenation_of_Array",
       "request": "launch",
       "mainClass": "P1929_Concatenation_of_Array",
