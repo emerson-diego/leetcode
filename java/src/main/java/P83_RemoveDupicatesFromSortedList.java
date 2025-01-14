@@ -2,17 +2,17 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class P83_RemoveDupicatesFromSortedList {
-    
-    public ListNode deleteDuplicates(ListNode head) {
+
+    public ListNode_ deleteDuplicates(ListNode_ head) {
         if (head == null || head.next == null) {
             return head;
         }
-        
+
         Set<Integer> lista = new HashSet<>();
-        
-        ListNode node = head;
-        ListNode nodeAnterior = null; // Inicialmente null, pois ainda não temos um 'anterior' no começo
-        
+
+        ListNode_ node = head;
+        ListNode_ nodeAnterior = null; // Inicialmente null, pois ainda não temos um 'anterior' no começo
+
         while (node != null) {
             if (lista.contains(node.val)) {
                 // Removendo o nó duplicado ajustando o ponteiro 'next' do nó anterior
@@ -25,25 +25,24 @@ public class P83_RemoveDupicatesFromSortedList {
             // Avançando para o próximo nó
             node = node.next;
         }
-        
+
         return head;
     }
 }
 
-class ListNode {
+class ListNode_ {
     int val;
-    ListNode next;
-    
-    ListNode() {
+    ListNode_ next;
+
+    ListNode_() {
     }
-    
-    ListNode(int val) {
+
+    ListNode_(int val) {
         this.val = val;
     }
-    
-    ListNode(int val, ListNode next) {
+
+    ListNode_(int val, ListNode_ next) {
         this.val = val;
         this.next = next;
     }
 }
-

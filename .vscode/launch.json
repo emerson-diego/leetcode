@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P2011_Performing_Operations",
+      "request": "launch",
+      "mainClass": "P2011_Performing_Operations",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
+      "name": "P2011_Final_Value_variable_After_Performing_Operations",
+      "request": "launch",
+      "mainClass": "P2011_Final_Value_variable_After_Performing_Operations",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
+      "name": "P2469_ConvertTheTemperature",
+      "request": "launch",
+      "mainClass": "P2469_ConvertTheTemperature",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P1920_Build_Array_from_Permutation",
       "request": "launch",
       "mainClass": "P1920_Build_Array_from_Permutation",
