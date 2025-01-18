@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P1108_Defanging_IpAddress",
+      "request": "launch",
+      "mainClass": "P1108_Defanging_IpAddress",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P2011_Performing_Operations",
       "request": "launch",
       "mainClass": "P2011_Performing_Operations",
@@ -135,14 +142,10 @@
       "program": "${workspaceFolder}/typescript/main.ts",
       "console": "integratedTerminal",
       "request": "launch",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }
