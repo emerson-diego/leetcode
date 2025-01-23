@@ -9,7 +9,7 @@ class Solution:
             if(num in dictionary):
                 count = dictionary[num]
                 goodPairs += count
-                dictionary[num] += count
+                dictionary[num] += num
             else:
                 dictionary[num] = 1
         
@@ -17,5 +17,5 @@ class Solution:
         
 
 solution = Solution()
-nums = [1,2,3,1,1,3]
+nums = [1,1,1,1]
 print(solution.numIdenticalPairs(nums))
