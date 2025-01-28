@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P3259_Two_Sneaky_Numbers",
+      "request": "launch",
+      "mainClass": "P3259_Two_Sneaky_Numbers",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
       "name": "P1512_Number_Good_Pairs",
       "request": "launch",
       "mainClass": "P1512_Number_Good_Pairs",
